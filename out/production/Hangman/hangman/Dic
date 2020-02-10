@@ -1,0 +1,9 @@
+	@Override
+	public void visit(ResumeController resumeController) {
+		this.resumeView.interact(resumeController);
+	}
+
+	@Override
+	public void visit(SaveController saveController) {
+		this.saveView.interact(saveController);
+	}
